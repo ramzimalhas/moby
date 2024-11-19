@@ -1,0 +1,426 @@
+repo_name: ramzimalhas/moby
+report_id: 7250703e24c4ba3b315ee2912c997bde
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:32:55+00:00'
+requested_by: thaJeztah
+provider: github
+branch: master
+detected_tools_count: 34
+tools:
+- name: Assembly Language
+  description: A low-level programming language
+  website_url: https://en.wikipedia.org/wiki/Assembly_language
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4934/default_71f18bbdc61fb88cefb66415bb55dc6f1e60e5ec.png
+  detection_source_url: https://github.com/ramzimalhas/moby
+  detection_source: Repo Metadata
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/ramzimalhas/moby
+  detection_source: Repo Metadata
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/ramzimalhas/moby
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ramzimalhas/moby
+  detection_source: Repo Metadata
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Solomon Hykes
+  last_updated_on: 2013-09-07 02:58:05.000000000 Z
+- name: Azure Pipelines
+  description: Continuously build, test, and deploy to any platform and cloud
+  website_url: https://azure.microsoft.com/ko-kr/services/devops/pipelines/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/10164/528389819366_e7a0672f0480b3e98d21_512.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/github.com/pelletier/go-toml/azure-pipelines.yml
+  detection_source: vendor/github.com/pelletier/go-toml/azure-pipelines.yml
+  last_updated_by: Sebastiaan van Stijn
+  last_updated_on: 2021-12-22 16:55:40.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/codecov.yml
+  detection_source: codecov.yml
+  last_updated_by: Daniel Nephin
+  last_updated_on: 2017-09-19 22:00:54.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/ramzimalhas/moby
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ramzimalhas/moby
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/.github/workflows/.dco.yml
+  detection_source: ".github/workflows/.dco.yml"
+  last_updated_by: CrazyMax
+  last_updated_on: 2022-09-10 13:07:46.000000000 Z
+- name: Google Cloud Build
+  description: Continuously build, test, and deploy.
+  website_url: https://cloud.google.com/cloud-build
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Deployment
+  image_url: https://img.stackshare.io/service/9309/PoHJY3K8_400x400.jpg
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/github.com/google/certificate-transparency-go/cloudbuild.yaml
+  detection_source: vendor/github.com/google/certificate-transparency-go/cloudbuild.yaml
+  last_updated_by: Sebastiaan van Stijn
+  last_updated_on: 2022-11-23 17:25:17.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/github.com/RackSec/srslog/.travis.yml
+  detection_source: vendor/github.com/RackSec/srslog/.travis.yml
+  last_updated_by: Sebastiaan van Stijn
+  last_updated_on: 2021-12-22 16:55:40.000000000 Z
+- name: Vagrant
+  description: A tool for building and distributing development environments
+  website_url: http://www.vagrantup.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Management
+  image_url: https://img.stackshare.io/service/768/150px-Vagrant.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/github.com/containerd/containerd/Vagrantfile
+  detection_source: vendor/github.com/containerd/containerd/Vagrantfile
+  last_updated_by: Sebastiaan van Stijn
+  last_updated_on: 2023-01-30 08:07:59.000000000 Z
+- name: Apex
+  description: Serverless Architecture with AWS Lambda
+  website_url: https://github.com/apex/apex
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Serverless / Task Processing
+  image_url: https://img.stackshare.io/service/4301/10543471.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Cory Snider
+  last_updated_on: 2022-03-10 21:07:02.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/libnetwork/cmd/networkdb-test/Dockerfile
+  detection_source: libnetwork/cmd/networkdb-test/Dockerfile
+  last_updated_by: Flavio Crisciani
+  last_updated_on: 2017-07-10 20:45:37.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Solomon Hykes
+  last_updated_on: 2013-09-07 02:58:05.000000000 Z
+- name: Debian
+  description: The Universal Operating System
+  website_url: https://www.debian.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/1656/vd4gAekh.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Sebastiaan van Stijn
+  last_updated_on: 2021-09-27 11:34:41.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/ramzimalhas/moby
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ramzimalhas/moby
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/golang.org/x/net/http2/Dockerfile
+  detection_source: vendor/golang.org/x/net/http2/Dockerfile
+  last_updated_by: Sebastiaan van Stijn
+  last_updated_on: 2021-12-22 16:55:40.000000000 Z
+- name: apex/log
+  description: Structured logging package for Go
+  package_url: https://pkg.go.dev/github.com/apex/log
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Cory Snider
+  last_updated_on: 2022-03-10 21:07:02.000000000 Z
+- name: atomic
+  description: Wrapper types for sync/atomic which enforce atomic access
+  package_url: https://pkg.go.dev/go.uber.org/atomic
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/go.uber.org/multierr/glide.yaml
+  detection_source: vendor/go.uber.org/multierr/glide.yaml
+  last_updated_by: Cory Snider
+  last_updated_on: 2022-03-10 21:07:02.000000000 Z
+- name: errors
+  description: Simple error handling primitives
+  package_url: https://pkg.go.dev/github.com/pkg/errors
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Cory Snider
+  last_updated_on: 2022-03-10 21:07:02.000000000 Z
+- name: go.uuid
+  description: UUID package for Go
+  package_url: https://pkg.go.dev/github.com/satori/go.uuid
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Cory Snider
+  last_updated_on: 2022-03-10 21:07:02.000000000 Z
+- name: gocov
+  description: Coverage testing tool for The Go Programming Language
+  package_url: https://pkg.go.dev/github.com/axw/gocov
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Cory Snider
+  last_updated_on: 2022-03-10 21:07:02.000000000 Z
+- name: goveralls
+  description: Goveralls is a Go client for Coveralls.io
+  package_url: https://pkg.go.dev/github.com/mattn/goveralls
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Cory Snider
+  last_updated_on: 2022-03-10 21:07:02.000000000 Z
+- name: kit
+  description: A standard library for microservices
+  package_url: https://pkg.go.dev/github.com/go-kit/kit
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Cory Snider
+  last_updated_on: 2022-03-10 21:07:02.000000000 Z
+- name: log15.v2
+  description: Package log15 provides an opinionated
+  package_url: https://pkg.go.dev/gopkg.in/inconshreveable/log15.v2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Cory Snider
+  last_updated_on: 2022-03-10 21:07:02.000000000 Z
+- name: logrus
+  description: Structured, pluggable logging for Go
+  package_url: https://pkg.go.dev/github.com/sirupsen/logrus
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Cory Snider
+  last_updated_on: 2022-03-10 21:07:02.000000000 Z
+- name: testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  package_url: https://pkg.go.dev/github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/go.uber.org/multierr/glide.yaml
+  detection_source: vendor/go.uber.org/multierr/glide.yaml
+  last_updated_by: Cory Snider
+  last_updated_on: 2022-03-10 21:07:02.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Cory Snider
+  last_updated_on: 2022-03-10 21:07:02.000000000 Z
+- name: uuid
+  description: Automatically exported from code.google.com/p/go-uuid
+  package_url: https://pkg.go.dev/github.com/pborman/uuid
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Cory Snider
+  last_updated_on: 2022-03-10 21:07:02.000000000 Z
+- name: zap
+  description: Blazing fast, structured, leveled logging in Go
+  package_url: https://pkg.go.dev/go.uber.org/zap
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Cory Snider
+  last_updated_on: 2022-03-10 21:07:02.000000000 Z
+- name: zerolog
+  description: Zero Allocation JSON Logger
+  package_url: https://pkg.go.dev/github.com/rs/zerolog
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/moby/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Cory Snider
+  last_updated_on: 2022-03-10 21:07:02.000000000 Z
